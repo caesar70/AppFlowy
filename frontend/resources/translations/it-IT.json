@@ -12,7 +12,8 @@
     "addBelowTooltip": "Fare clic per aggiungere di seguito",
     "addAboveCmd": "Alt+clic",
     "addAboveMacCmd": "Opzione+clic",
-    "addAboveTooltip": "aggiungere sopra"
+    "addAboveTooltip": "aggiungere sopra",
+    "dragTooltip": "Trascina per spostare"
   },
   "signUp": {
     "buttonText": "Registrati",
@@ -30,13 +31,18 @@
     "loginTitle": "Accedi a @:appName",
     "loginButtonText": "Login",
     "buttonText": "Accedi",
-    "forgotPassword": "Password Dimentica?",
+    "forgotPassword": "Password dimenticata?",
     "emailHint": "Email",
     "passwordHint": "Password",
     "dontHaveAnAccount": "Non hai un account?",
     "repeatPasswordEmptyError": "La password ripetuta non può essere vuota",
     "unmatchedPasswordError": "La password ripetuta non è uguale alla password",
-    "signInWith": "Loggati con:",
+    "syncPromptMessage": "Sincronizzare i dati può richiedere tempo. Per cortesia, non chiudere la pagina",
+    "or": "o",
+    "LogInWithGoogle": "Accedi con Google",
+    "LogInWithGithub": "Accedi con Github",
+    "LogInWithDiscord": "Accedi con Discord",
+    "signInWith": "Accedi con:",
     "loginAsGuestButtonText": "Iniziare"
   },
   "workspace": {
@@ -48,6 +54,7 @@
     "buttonText": "Condividi",
     "workInProgress": "Prossimamente",
     "markdown": "Markdown",
+    "csv": "CSV",
     "copyLink": "Copia Link"
   },
   "moreAction": {
@@ -55,7 +62,7 @@
     "medium": "medio",
     "large": "grande",
     "fontSize": "Dimensione del font",
-    "import": "Importare",
+    "import": "Importa",
     "moreOptions": "Più opzioni"
   },
   "importPanel": {
@@ -69,17 +76,21 @@
     "rename": "Rinomina",
     "delete": "Cancella",
     "duplicate": "Duplica",
+    "unfavorite": "Rimuovi dai preferiti",
+    "favorite": "Aggiungi ai preferiti",
     "openNewTab": "Apri in una nuova scheda"
   },
   "blankPageTitle": "Pagina vuota",
   "newPageText": "Nuova pagina",
+  "newDocumentText": "Nuovo documento",
+  "newCalendarText": "Nuovo calendario",
   "trash": {
     "text": "Cestino",
     "restoreAll": "Ripristina Tutto",
     "deleteAll": "Elimina Tutto",
     "pageHeader": {
       "fileName": "Nome file",
-      "lastModified": "Ultima Modifica",
+      "lastModified": "Ultima modifica",
       "created": "Creato"
     },
     "confirmDeleteAll": {
@@ -138,14 +149,16 @@
     "openAsPage": "Apri come pagina",
     "addNewRow": "Aggiungi una nuova riga",
     "openMenu": "Fare clic per aprire il menu",
-    "dragRow": "Premere a lungo per riordinare la riga",
+    "dragRow": "Tieni premuto per riordinare la riga",
     "viewDataBase": "Visualizza banca dati",
     "referencePage": "Questo {nome} è referenziato",
     "addBlockBelow": "Aggiungi un blocco qui sotto"
   },
   "sideBar": {
     "closeSidebar": "Close sidebar",
-    "openSidebar": "Open sidebar"
+    "openSidebar": "Open sidebar",
+    "favorites": "Preferiti",
+    "addAPage": "Aggiungi una pagina"
   },
   "notifications": {
     "export": {
@@ -167,17 +180,17 @@
     "signOut": "Esci",
     "complete": "Completa",
     "save": "Salva",
-    "generate": "creare",
+    "generate": "Crea",
     "esc": "ESC",
-    "keep": "Mantenere",
+    "keep": "Mantieni",
     "tryAgain": "Riprova",
-    "discard": "Scartare",
-    "replace": "Sostituire",
+    "discard": "Annulla",
+    "replace": "Sostituisci",
     "insertBelow": "Inserisci sotto",
     "upload": "Caricamento",
-    "edit": "Modificare",
-    "delete": "Eliminare",
-    "duplicate": "Duplicare",
+    "edit": "Modifica",
+    "delete": "Elimina",
+    "duplicate": "Duplica",
     "done": "Fatto",
     "putback": "Rimettere a posto"
   },
@@ -191,11 +204,11 @@
   "oAuth": {
     "err": {
       "failedTitle": "Impossibile collegarsi al tuo account.",
-      "failedMsg": "Si prega di verificare di aver completato il processo di iscrizione nel tuo browser."
+      "failedMsg": "Accertati di aver completato il processo di iscrizione nel tuo browser."
     },
     "google": {
       "title": "GOOGLE SIGN-IN",
-      "instruction1": "Al fine di importare i tuoi Contatti Google è necessario autorizzare questa applicazione ad utilizzare il tuo beowser web.",
+      "instruction1": "Per importare i tuoi Contatti Google è necessario autorizzare questa applicazione ad utilizzare il tuo browser.",
       "instruction2": "Copia questo codice negli appunti premendo l'icona o selezionando il testo:",
       "instruction3": "Naviga sul seguente link con il tuo browser web e inserisci il codice seguente:",
       "instruction4": "Premi il bottone qui sotto quando hai completato l'iscrizione:"
@@ -209,6 +222,8 @@
       "user": "Utente",
       "files": "File",
       "open": "Apri le impostazioni",
+      "logout": "Esci",
+      "logoutPrompt": "Sei sicuro di voler uscire?",
       "supabaseSetting": "Impostazione Supabase"
     },
     "appearance": {
@@ -220,12 +235,12 @@
         "label": "Modalità tema",
         "light": "Modalità Chiara",
         "dark": "Modalità Scura",
-        "system": "Segui il sistema"
+        "system": "Adatta al sistema"
       },
       "themeUpload": {
         "button": "Caricamento",
         "description": "Carica il tuo tema AppFlowy utilizzando il pulsante in basso.",
-        "failure": "Il tema che è stato caricato aveva un formato non valido.",
+        "failure": "Il tema caricato aveva un formato non valido.",
         "loading": "Attendi mentre convalidiamo e carichiamo il tuo tema...",
         "uploadSuccess": "Il tuo tema è stato caricato correttamente",
         "deletionFailure": "Impossibile eliminare il tema. Prova a eliminarlo manualmente.",
@@ -234,10 +249,15 @@
       },
       "theme": "Tema",
       "builtInsLabel": "Temi incorporati",
-      "pluginsLabel": "Plugin"
+      "pluginsLabel": "Plugin",
+      "dateFormat": {
+        "us": "US",
+        "iso": "ISO",
+        "dmy": "D/M/Y"
+      }
     },
     "files": {
-      "copy": "copia",
+      "copy": "Copia",
       "defaultLocation": "Leggi i file e la posizione di archiviazione dei dati",
       "exportData": "Esporta i tuoi dati",
       "doubleTapToCopy": "Tocca due volte per copiare il percorso",
@@ -247,7 +267,7 @@
       "exportDatabase": "Esporta banca dati",
       "selectFiles": "Seleziona i file che devono essere esportati",
       "selectAll": "Seleziona tutto",
-      "deselectAll": "Deselezionare tutto",
+      "deselectAll": "Deseleziona tutto",
       "createNewFolder": "Crea una nuova cartella",
       "createNewFolderDesc": "Dicci dove vuoi salvare i tuoi dati",
       "defineWhereYourDataIsStored": "Definisci dove sono archiviati i tuoi dati",
@@ -263,17 +283,18 @@
       "folderPath": "Percorso per memorizzare la tua cartella",
       "locationCannotBeEmpty": "Il percorso non può essere vuoto",
       "pathCopiedSnackbar": "Percorso di archiviazione file copiato negli appunti!",
-      "changeLocationTooltips": "Modificare la directory dei dati",
+      "changeLocationTooltips": "Modifica la directory dei dati",
       "change": "Modifica",
       "openLocationTooltips": "Apri un'altra directory di dati",
       "openCurrentDataFolder": "Apre la directory dei dati corrente",
       "recoverLocationTooltips": "Ripristina la directory dei dati predefinita di AppFlowy",
-      "exportFileSuccess": "Esporta file con successo!",
-      "exportFileFail": "File di esportazione non riuscito!",
+      "exportFileSuccess": "File esportato con successo!",
+      "exportFileFail": "Esportazione del file non riuscita!",
       "export": "Esportare"
     },
     "user": {
       "name": "Nome",
+      "email": "Email",
       "selectAnIcon": "Seleziona un'icona",
       "pleaseInputYourOpenAIKey": "inserisci la tua chiave OpenAI"
     },
@@ -292,6 +313,9 @@
   "grid": {
     "deleteView": "Sei sicuro di voler eliminare questa vista?",
     "createView": "Nuovo",
+    "title": {
+      "placeholder": "Senza titolo"
+    },
     "settings": {
       "filter": "Filtro",
       "sort": "Ordinare",
@@ -327,7 +351,7 @@
       "isChecked": "Controllato",
       "isUnchecked": "Deselezionato",
       "choicechipPrefix": {
-        "is": "È"
+        "is": "è"
       }
     },
     "checklistFilter": {
@@ -347,16 +371,17 @@
       "isNotEmpty": "Non è vuoto"
     },
     "field": {
-      "hide": "Nascondere",
+      "hide": "Nascondi",
+      "show": "Mostra",
       "insertLeft": "Inserisci a sinistra",
       "insertRight": "Inserisci a destra",
-      "duplicate": "Duplicare",
-      "delete": "Eliminare",
+      "duplicate": "Duplica",
+      "delete": "Elimina",
       "textFieldName": "Testo",
       "checkboxFieldName": "Casella di controllo",
       "dateFieldName": "Data",
       "updatedAtFieldName": "Ora dell'ultima modifica",
-      "createdAtFieldName": "Tempo creato",
+      "createdAtFieldName": "Creato il",
       "numberFieldName": "Numeri",
       "singleSelectFieldName": "Selezionare",
       "multiSelectFieldName": "Selezione multipla",
@@ -366,10 +391,10 @@
       "dateFormat": "Formato data",
       "includeTime": "Includi il tempo",
       "dateFormatFriendly": "Mese giorno anno",
-      "dateFormatISO": "Anno mese giorno",
-      "dateFormatLocal": "Mese giorno anno",
-      "dateFormatUS": "Anno mese giorno",
-      "dateFormatDayMonthYear": "Giorno mese Anno",
+      "dateFormatISO": "Anno-Mese-Giorno",
+      "dateFormatLocal": "Mese/Giorno/Anno",
+      "dateFormatUS": "Anno/Mese/Giorno",
+      "dateFormatDayMonthYear": "Giorno/Mese/Anno",
       "timeFormat": "Formato orario",
       "invalidTimeFormat": "Formato non valido",
       "timeFormatTwelveHour": "12 ore",
@@ -379,7 +404,11 @@
       "addOption": "Aggiungi opzione",
       "editProperty": "Modifica proprietà",
       "newProperty": "Nuova proprietà",
-      "deleteFieldPromptMessage": "Sei sicuro? Questa proprietà verrà eliminata"
+      "deleteFieldPromptMessage": "Sei sicuro? Questa proprietà verrà eliminata",
+      "newColumn": "Nuova Colonna"
+    },
+    "rowPage": {
+      "newField": "Aggiungi un nuovo campo"
     },
     "sort": {
       "ascending": "Ascendente",
@@ -388,8 +417,8 @@
       "deleteSort": "Elimina ordinamento"
     },
     "row": {
-      "duplicate": "Duplicare",
-      "delete": "Eliminare",
+      "duplicate": "Duplica",
+      "delete": "Elimina",
       "textPlaceholder": "Vuoto",
       "copyProperty": "Proprietà copiata negli appunti",
       "count": "Contare",
@@ -401,13 +430,13 @@
       "purpleColor": "Viola",
       "pinkColor": "Rosa",
       "lightPinkColor": "Rosa chiaro",
-      "orangeColor": "Arancia",
+      "orangeColor": "Arancione",
       "yellowColor": "Giallo",
       "limeColor": "Lime",
       "greenColor": "Verde",
       "aquaColor": "Acqua",
       "blueColor": "Blu",
-      "deleteTag": "Elimina etichetta",
+      "deleteTag": "Elimina tag",
       "colorPanelTitle": "Colori",
       "panelTitle": "Seleziona un'opzione o creane una",
       "searchOption": "Cerca un'opzione"
@@ -421,7 +450,7 @@
   "document": {
     "menuName": "Documento",
     "date": {
-      "timeHintTextInTwelveHour": "13:00",
+      "timeHintTextInTwelveHour": "1:00",
       "timeHintTextInTwentyFourHour": "13:00"
     },
     "slashMenu": {
@@ -442,13 +471,13 @@
       "outline": "Contorno"
     },
     "plugins": {
-      "referencedBoard": "Consiglio referenziato",
-      "referencedGrid": "Griglia di riferimento",
+      "referencedBoard": "Bacheca referenziata",
+      "referencedGrid": "Griglia referenziata",
       "referencedCalendar": "Calendario referenziato",
       "autoGeneratorMenuItemName": "Scrittore OpenAI",
       "autoGeneratorTitleName": "OpenAI: chiedi all'AI di scrivere qualsiasi cosa...",
-      "autoGeneratorLearnMore": "Saperne di più",
-      "autoGeneratorGenerate": "creare",
+      "autoGeneratorLearnMore": "Per saperne di più",
+      "autoGeneratorGenerate": "Crea",
       "autoGeneratorHintText": "Chiedi a OpenAI...",
       "autoGeneratorCantGetOpenAIKey": "Impossibile ottenere la chiave OpenAI",
       "autoGeneratorRewrite": "Riscrivere",
@@ -513,6 +542,18 @@
       },
       "outline": {
         "addHeadingToCreateOutline": "Aggiungi intestazioni per creare un sommario."
+      },
+      "table": {
+        "addAfter": "Aggiungi dopo",
+        "addBefore": "Aggiungi prima",
+        "delete": "Elimina",
+        "clear": "Cancella",
+        "duplicate": "Duplica"
+      },
+      "contextMenu": {
+        "copy": "Copia",
+        "cut": "Taglia",
+        "paste": "Incolla"
       }
     },
     "textBlock": {
@@ -537,6 +578,9 @@
         "invalidImageSize": "La dimensione dell'immagine deve essere inferiore a 5 MB",
         "invalidImageFormat": "Il formato dell'immagine non è supportato. Formati supportati: JPEG, PNG, GIF, SVG",
         "invalidImageUrl": "URL dell'immagine non valido"
+      },
+      "embedLink": {
+        "placeholder": "Incolla o digita il link dell'immagine"
       }
     },
     "codeBlock": {
@@ -547,6 +591,7 @@
     },
     "inlineLink": {
       "placeholder": "Incolla o digita un link",
+      "openInNewTab": "Apri in una nuova scheda",
       "url": {
         "label": "URL di collegamento",
         "placeholder": "Inserisci l'URL del collegamento"
@@ -576,7 +621,7 @@
     "settings": {
       "showWeekNumbers": "Mostra i numeri della settimana",
       "showWeekends": "Mostra i fine settimana",
-      "firstDayOfWeek": "Inizia la settimana",
+      "firstDayOfWeek": "Inizia la settimana da",
       "layoutDateField": "Layout calendario per",
       "noDateTitle": "Nessuna data",
       "noDateHint": "Gli eventi non programmati verranno visualizzati qui",
@@ -606,5 +651,31 @@
   "views": {
     "deleteContentTitle": "Sei sicuro di voler eliminare {pageType}?",
     "deleteContentCaption": "se elimini questo {pageType}, puoi ripristinarlo dal cestino."
+  },
+  "colors": {
+    "red": "Rosso",
+    "orange": "Arancione",
+    "yellow": "Giallo",
+    "green": "Verde",
+    "blue": "Blu",
+    "purple": "Viola",
+    "pink": "Rosa",
+    "brown": "Marrone",
+    "gray": "Grigio"
+  },
+  "relativeDates": {
+    "today": "Oggi",
+    "tomorrow": "Domani"
+  },
+  "reminderNotification": {
+    "tooltipDelete": "Elimina",
+    "tooltipMarkRead": "Segna come già letto",
+    "tooltipMarkUnread": "Segna come da leggere"
+  },
+  "findAndReplace": {
+    "find": "Trova",
+    "close": "Chiudi",
+    "replace": "Sostituisci",
+    "replaceAll": "Sostituisci tutto"
   }
 }
